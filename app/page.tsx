@@ -8,7 +8,7 @@ import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
 import { BookOpen, Scale, Feather, Award, Mail, Linkedin, Twitter, ChevronDown, Sparkles, Quote } from "lucide-react"
 
-export default function HomePage() {
+export default function Page() {
   const [scrollY, setScrollY] = useState(0)
   const [isVisible, setIsVisible] = useState(false)
   const heroRef = useRef<HTMLDivElement>(null)
